@@ -1,0 +1,36 @@
+.task-header {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+}
+.task-list ul {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    max-width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.task-list ul li {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.task-list ul li:nth-child(even) {
+    background-color: #f3f3f3;
+}
+.task-list ul li select {
+    padding: 10px 10px;
+    border: 0;
+    margin-right: auto;
+}
+.task-list ul li span {
+    text-align: left;
+    flex-basis: 60%;
+}
+.edit-btm {
+    margin: 0 10px 0 0;
+}
